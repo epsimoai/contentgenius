@@ -1,0 +1,34 @@
+{
+  "name": "contentgenius",
+  "version": "2.0.0",
+  "description": "Complete AI-powered content platform: blog generation, social media, proposals, content ideation, brand voice, publishing, video, and offer automation",
+  "author": "Epsimo AI",
+  "repository": "https://github.com/epsimoai/contentgenius",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "contentgenius",
+      "description": "AI content creation, publishing, and business automation",
+      "aliases": ["cgenius", "cg", "content"]
+    }
+  ],
+  "tags": [
+    "content-creation",
+    "blog-generation",
+    "proposals",
+    "questionnaires",
+    "marketing",
+    "ai-generation",
+    "brand-voice",
+    "content-ideation",
+    "publishing",
+    "video",
+    "offer-automation"
+  ],
+  "categories": [
+    "productivity",
+    "business",
+    "content",
+    "marketing"
+  ]
+}

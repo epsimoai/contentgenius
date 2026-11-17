@@ -1,0 +1,78 @@
+{
+  "name": "@epsimoai/contentgenius",
+  "version": "2.0.2",
+  "description": "Complete AI-powered content platform: blog generation, social media, proposals, content ideation, brand voice, publishing, video, and offer automation",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "kiro-skill",
+    "content-creation",
+    "ai-content",
+    "blog-generation",
+    "proposals",
+    "questionnaires",
+    "marketing",
+    "content-genius",
+    "ai-writing",
+    "automation",
+    "brand-voice",
+    "content-ideation",
+    "publishing"
+  ],
+  "main": "skills/contentgenius/SKILL.md",
+  "files": [
+    "skill.json",
+    "skills/contentgenius/SKILL.md",
+    "SECURITY.md",
+    "README.md",
+    "LICENSE",
+    "skills/contentgenius/examples/**/*.md"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "prepublishOnly": "node -e \"console.log('Publishing Content Genius skill v2.0.0...')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsimoai/contentgenius.git"
+  },
+  "homepage": "https://github.com/epsimoai/contentgenius#readme",
+  "bugs": {
+    "url": "https://github.com/epsimoai/contentgenius/issues"
+  },
+  "author": "Epsimo AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "claudeCode": {
+    "skillVersion": "2.0",
+    "commands": [
+      "contentgenius",
+      "cgenius",
+      "cg",
+      "content"
+    ],
+    "categories": [
+      "productivity",
+      "business",
+      "content",
+      "marketing"
+    ],
+    "apis": [
+      "blog-writer-v2",
+      "ai-json",
+      "generate-text",
+      "generate-proposal",
+      "proposal-pipeline",
+      "pptx-generate",
+      "questionnaire",
+      "content-ideation",
+      "offer-agent",
+      "remotion"
+    ]
+  }
+}
